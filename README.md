@@ -10,6 +10,7 @@ Greendzine App is a mobile application designed for productivity tracking and em
 - **Intuitive UI:** Clean and user-friendly interface for seamless navigation.
 
 ## Download apk
+[Download Apk](https://github.com/UJAIR-SHAHA/greendzine_app/releases/download/v.1.1/greendzine.apk)
 
 
 ## Technologies Used
