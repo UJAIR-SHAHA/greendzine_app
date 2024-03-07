@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/care_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:foregroundGravity="right"
+        android:src="@drawable/group_46"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/moptro_logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/moptro_logo"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        android:layout_below="@+id/care_logo"
+        tools:ignore="ContentDescription" />
+
+    <!-- Your main content goes here -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_below="@+id/moptro_logo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigationView" />
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemTextColor="@color/white"
+        android:background="@drawable/nav_bt"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="#227023">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>
