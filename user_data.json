@@ -1,0 +1,26 @@
+[
+  {
+    "name": "John Doe",
+    "employeeId": "E12345",
+    "dob": "1990-05-15",
+    "role": "Developer"
+  },
+  {
+    "name": "Jane Smith",
+    "employeeId": "E56789",
+    "dob": "1985-08-25",
+    "role": "Designer"
+  },
+  {
+    "name": "Bob Johnson",
+    "employeeId": "E98765",
+    "dob": "1995-02-10",
+    "role": "Manager"
+  },
+  {
+    "name": "Alice Brown",
+    "employeeId": "E23456",
+    "dob": "1988-11-30",
+    "role": "Tester"
+  }
+]

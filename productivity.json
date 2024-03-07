@@ -1,0 +1,8 @@
+[
+  {"day": "Monday", "productivity": 80},
+  {"day": "Tuesday", "productivity": 75},
+  {"day": "Wednesday", "productivity": 75},
+  {"day": "Thursday", "productivity": 75},
+  {"day": "Friday", "productivity": 75},
+  {"day": "Saturday", "productivity": 75}
+]
